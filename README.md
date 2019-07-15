@@ -58,7 +58,7 @@ See the [common plugin options] for more information about the customization and
 
 ## Writing Tests
 
-Usually you will not need to modify your tests. The snapshots will just be taken, once a test spec fails or throws an unexpected error. For example, a typical test using set-up and tear-down phases.
+Usually you will not need to modify your tests. The snapshots will just be taken, once a test spec fails or throws an unexpected error. For example, a typical test using set-up and tear-down phases:
 
     describe('test suite', function () {
       before(function () {
