@@ -1,0 +1,40 @@
+{
+  "name": "karma-failure-snapshots-mocha",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "Karma plugin for taking snapshots of the web browser whenever a Mocha test fails.",
+  "license": "MIT",
+  "author": {
+    "name": "Ferdinand Prantl",
+    "email": "prantlf@gmail.com",
+    "url": "https://github.com/prantlf"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "mocha",
+    "snapshots",
+    "screenshots"
+  ],
+  "homepage": "https://github.com/prantlf/karma-failure-snapshots-mocha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/karma-failure-snapshots-mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/karma-failure-snapshots-mocha/issues"
+  },
+  "github": "https://github.com/prantlf/karma-failure-snapshots-mocha",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "standard --fix --verbose"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "13.0.2"
+  }
+}
