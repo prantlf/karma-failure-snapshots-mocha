@@ -3,7 +3,6 @@
 [![Latest version](https://img.shields.io/npm/v/karma-failure-snapshots-mocha)
  ![Dependency status](https://img.shields.io/librariesio/release/npm/karma-failure-snapshots-mocha)
 ](https://www.npmjs.com/package/karma-failure-snapshots-mocha)
-[![Coverage](https://codecov.io/gh/prantlf/karma-failure-snapshots-mocha/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/karma-failure-snapshots-mocha)
 
 [Karma] plugin for taking snapshots of the web browser state whenever a [Mocha] test fails.
 
