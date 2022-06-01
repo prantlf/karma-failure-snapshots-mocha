@@ -26,15 +26,29 @@
   },
   "github": "https://github.com/prantlf/karma-failure-snapshots-mocha",
   "files": [
-    "lib",
-    "LICENSE",
-    "README.md"
+    "lib"
   ],
   "scripts": {
     "test": "standard --fix --verbose"
   },
-  "dependencies": {},
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
   "devDependencies": {
-    "standard": "14.3.1"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "standard": "17.0.0"
   }
 }
