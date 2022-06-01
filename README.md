@@ -53,7 +53,7 @@ You will add it with the main plugin, which you will place in back of it. When y
       })
     }
 
-See the [common plugin options] for more information about the customization and the [main plugin configuration] for more information. 
+See the [common plugin options] for more information about the customization and the [main plugin configuration] for more information.
 
 
 ## Writing Tests
@@ -127,7 +127,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2019 Ferdinand Prantl
+Copyright (c) 2019-2022 Ferdinand Prantl
 
 Licensed under the MIT license.
 
